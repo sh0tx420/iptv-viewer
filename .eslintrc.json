@@ -1,0 +1,114 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "indent": [
+            "warn",
+            4,
+            { "SwitchCase": 1 }
+        ],
+        "quotes": [
+            "warn",
+            "double"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "arrow-spacing": [
+            "warn",
+            {
+                "before": true,
+                "after": true
+            }
+        ],
+        "brace-style": [
+            "warn",
+            "stroustrup",
+            {
+                "allowSingleLine": true
+            }
+        ],
+        "comma-dangle": [
+            "error",
+            "never"
+        ],
+        "comma-spacing": "warn",
+        "comma-style": "error",
+        "curly": [
+            "error",
+            "all"
+        ],
+        "dot-location": [
+            "error",
+            "property"
+        ],
+        "handle-callback-err": "off",
+        "keyword-spacing": "warn",
+        "max-nested-callbacks": [
+            "warn",
+            {
+                "max": 4
+            }
+        ],
+        "max-statements-per-line": [
+            "warn",
+            {
+                "max": 1
+            }
+        ],
+        "no-console": "off",
+        "no-empty-function": "error",
+        "no-floating-decimal": "warn",
+        "no-inline-comments": "off",
+        "no-lonely-if": "warn",
+        "no-multi-spaces": "error",
+        "no-multiple-empty-lines": [
+            "warn",
+            {
+                "max": 2,
+                "maxEOF": 1,
+                "maxBOF": 0
+            }
+        ],
+        "no-shadow": "error",
+        "no-trailing-spaces": "warn",
+        "no-var": "error",
+        "object-curly-spacing": [
+            "error",
+            "always"
+        ],
+        "prefer-const": "warn",
+        "space-before-blocks": "warn",
+        "space-before-function-paren": [
+            "warn",
+            {
+                "anonymous": "never",
+                "named": "never",
+                "asyncArrow": "always"
+            }
+        ],
+        "space-in-parens": "warn",
+        "space-infix-ops": "warn",
+        "space-unary-ops": "warn",
+        "spaced-comment": "warn",
+        "yoda": "error"
+    }
+}
