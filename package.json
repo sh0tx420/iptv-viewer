@@ -4,8 +4,8 @@
     "main": "index.js",
     "license": "MIT",
     "dependencies": {
+        "@emotion/react": "^11.9.0",
         "@rebass/preset": "^4.0.5",
-        "emotion-theming": "^11.0.0",
         "react": "^18.1.0",
         "react-dom": "^18.1.0",
         "react-router-dom": "^6.3.0",
