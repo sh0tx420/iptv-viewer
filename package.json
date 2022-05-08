@@ -5,9 +5,11 @@
     "license": "MIT",
     "dependencies": {
         "@emotion/react": "^11.9.0",
+        "@rebass/forms": "^4.0.6",
         "@rebass/preset": "^4.0.5",
         "react": "^18.1.0",
         "react-dom": "^18.1.0",
+        "react-hls-player": "^3.0.7",
         "react-router-dom": "^6.3.0",
         "react-scripts": "^5.0.1",
         "rebass": "^4.0.7"
