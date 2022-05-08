@@ -29,7 +29,7 @@ export default function Home() {
 
     return (
         <React.Fragment>
-            <Box sx={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(128px, 0.22fr))", width: "100%", height: "100%" }}>
+            <Box sx={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(128px, 0.28fr))", width: "100%", height: "100%" }}>
                 <Card
                     width={512}
                     height={512}
@@ -53,18 +53,19 @@ export default function Home() {
                             sx={{ color: theme.colors.primary, borderRadius: 100 }}
                         >
                             {
-                                streams.map(([key, country]) => {
-                                    <option key={key}>
-                                        {country}
-                                    </option>;
-                                })
+                                streams.map(
+                                    ([key, country]) =>
+                                        <option key={key}>
+                                            {country}
+                                        </option>
+                                )
                             }
                         </Select>
                     </Box>
                 </Card>
 
                 <Card
-                    width="75vw"
+                    width="70vw"
                     height="70vh"
                     p={2}
                     sx={{
